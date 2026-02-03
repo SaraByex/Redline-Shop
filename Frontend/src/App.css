@@ -1,0 +1,11 @@
+:root {
+  --brand-red: #b30000;
+}
+
+.navbar .nav-link {
+  color: red;
+}
+
+.navbar .nav-link.active {
+  color: #b30000;
+}

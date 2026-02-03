@@ -1,0 +1,23 @@
+/* :root is the top-level element (<html>) */
+:root {
+    --main-bg: #e9dede;
+    --main-color: purple;
+    --heading-color: darkblue;
+    --font-size: 18px;
+}
+
+/* body styles apply to the whole page content */
+body {
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    font-size: var(--font-size);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* This h1 will use a different variable */
+h1 {
+    color: var(--heading-color);
+}
+
+

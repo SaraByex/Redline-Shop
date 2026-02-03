@@ -1,0 +1,1 @@
+new_me = new_me.strip()
